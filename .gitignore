@@ -1,1 +1,3 @@
 mfs_env
+spatial_layout_mapping/roomnet_pre-trained/
+spatial_layout_mapping/lsunroom_retrained.ckpt
