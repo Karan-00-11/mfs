@@ -1,9 +1,6 @@
 mfs_env
 spatial_layout_mapping/lsunroom/mats/
+spatial_layout_mapping/lsunroom/lsun-room/
 spatial_layout_mapping/lsunroom/surface_relabel/
 spatial_layout_mapping/lsunroom/lsunroom_retrained.ckpt
-spatial_layout_mapping/roomnet/roomnet_pre-trained/logs/events.out.tfevents.1523455058.msramcgvm2
-spatial_layout_mapping/roomnet/roomnet_pre-trained/model/checkpoint
-spatial_layout_mapping/roomnet/roomnet_pre-trained/model/model17500-17500.data-00000-of-00001
-spatial_layout_mapping/roomnet/roomnet_pre-trained/model/model17500-17500.index
-spatial_layout_mapping/roomnet/roomnet_pre-trained/model/model17500-17500.meta
+spatial_layout_mapping/roomnet/roomnet_pre-trained/
