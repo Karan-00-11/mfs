@@ -2,5 +2,5 @@ mfs_env
 spatial_layout_mapping/lsunroom/mats/
 spatial_layout_mapping/lsunroom/lsun-room/
 spatial_layout_mapping/lsunroom/surface_relabel/
-spatial_layout_mapping/lsunroom/lsunroom_retrained.ckpt
+spatial_layout_mapping/lsunroom/model_retrained.ckpt
 spatial_layout_mapping/roomnet/roomnet_pre-trained/
