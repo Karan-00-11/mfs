@@ -342,5 +342,4 @@ def get_rectangles(layout_path, mat_path):
             wall_rectangles.append(originalRectangles[i][1])
         if originalRectangles[i][0] == 'Floor':
             floor_rectangles.append(originalRectangles[i][1])
-    # print("returned two sets")
     return wall_rectangles, floor_rectangles
