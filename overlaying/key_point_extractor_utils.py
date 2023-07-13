@@ -342,4 +342,4 @@ def get_rectangles(layout_path, mat_path):
             wall_rectangles.append(originalRectangles[i][1])
         if originalRectangles[i][0] == 'Floor':
             floor_rectangles.append(originalRectangles[i][1])
-    return wall_rectangles, floor_rectangles
+    return np.array(wall_rectangles), np.array(floor_rectangles)
