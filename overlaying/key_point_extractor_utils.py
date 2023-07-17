@@ -339,7 +339,8 @@ def get_rectangles(layout_path, mat_path):
     for i in range(len(originalRectangles)):
         # print(originalRectangles[i])
         if originalRectangles[i][0] == 'Wall':
-            wall_rectangles.append(originalRectangles[i][1])
+            wall_rectangles.append(np.array(originalRectangles[i][1]))
         if originalRectangles[i][0] == 'Floor':
-            floor_rectangles.append(originalRectangles[i][1])
-    return np.array(wall_rectangles), np.array(floor_rectangles)
+            floor_rectangles.append(np.array(originalRectangles[i][1]))
+    
+    return wall_rectangles, floor_rectangles
