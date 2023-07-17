@@ -12,5 +12,6 @@ INPUT DIRs TO BE SET (layout_img, src_img) - before the below step
 ## PROCESS - AFTER USER SELECTS A WALL OR A FLOOR AND THE PRODUCT
 
 INPUT DIRs TO BE SET (mask_img, product_img) - before the below step
+the following step can be repeated as many times the user selects different wall or floor and product image
 1 give the mask image, product image as the input to the implant_overlay method in the blender class
 2 it returns the transformed image and writes to the outs directory
