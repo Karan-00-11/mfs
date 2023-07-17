@@ -4,3 +4,4 @@ spatial_layout_mapping/lsunroom/lsun-room/
 spatial_layout_mapping/lsunroom/surface_relabel/
 spatial_layout_mapping/lsunroom/model_retrained.ckpt
 spatial_layout_mapping/roomnet/roomnet_pre-trained/
+final_version/layout_estimator/model_retrained.ckpt
