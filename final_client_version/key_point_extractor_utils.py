@@ -300,7 +300,6 @@ def getRect(cornerPts, outerPts, size):
 
 
 
-
 #---------Driving part, reading inputs, call methods, and returns result---------
 def get_rectangles(layout_path, mat_path):
     img = cv2.imread(layout_path)
@@ -331,8 +330,12 @@ def get_rectangles(layout_path, mat_path):
     # rectangles = getRect(cornerPts=cornerPts, outerPts=outerPts, size=[320,320])
 
     originalRectangles = []
-    originalRectangles = getRect(cornerPts=order_points(originalCornerPts), outerPts=order_points(originalOuterPts), size=img.shape)
-    
+    try:
+        originalRectangles = getRect(cornerPts=order_points(originalCornerPts), outerPts=order_points(originalOuterPts), size=img.shape)
+    except:
+        # print("layout methods dows not work for this image")
+        return -1
+
     wall_rectangles = []
     floor_rectangles = []
     
