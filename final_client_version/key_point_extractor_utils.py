@@ -301,7 +301,7 @@ def getRect(cornerPts, outerPts, size):
 
 
 #---------Driving part, reading inputs, call methods, and returns result---------
-def get_rectangles(layout_path, mat_path):
+def l_spatial_estimator(layout_path, mat_path):
     img = cv2.imread(layout_path)
     width, height, ch = img.shape
 

@@ -277,7 +277,7 @@ def find_extremes(all_masks):
 
 
 
-def extract_pp_from_masks(all_masks):
+def extreme_spatial_estimator(all_masks):
     extremes, new_rectangles, peak_points_for_masks  = find_extremes(all_masks)
     # print(extremes)
     cords = extract_rects_from_pp(new_rectangles, peak_points_for_masks, extremes, all_masks)
