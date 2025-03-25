@@ -1,7 +1,5 @@
 # Indoor Scene Layout Estimation and Floor-Wall Rendering Engine
 
-![Project Banner](./docs/images/banner.png)
-
 A comprehensive computer vision solution for estimating interior room layout from a single image and rendering floors and walls with custom product overlays. This system enables virtual visualization of interior design products in real-world settings.
 
 ## 🔍 Overview
@@ -87,7 +85,7 @@ result = blender.implant_overlay((x, y), 'product_image.jpg')
 
 Input Room Image → Layout Estimation → Product Selection → Final Rendering
 
-![Example Pipeline](./docs/images/example_pipeline.jpg)
+![Example Pipeline](outs\test1.jpg)
 
 
 ## 🙏 Acknowledgements
