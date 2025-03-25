@@ -87,18 +87,11 @@ Input Room Image → Layout Estimation → Product Selection → Final Rendering
 
 <!-- ![Example Pipeline](outs/test1.jpg) -->
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <div style="text-align: center; margin: 10px;">
-    <img src="inputs/src_imgs/test1.jpeg" alt="Input Room Image" width="300">
-    <p><b>Input Room Image</b></p>
-  </div>
-  <div style="text-align: center; margin: 10px;">
-    <img src="outs/test1.jpg" alt="Final Rendering" width="300">
-    <p><b>Final Rendering</b></p>
-  </div>
-</div>
+## 💡 Example
 
-
+| Input Room Image | Final Rendering |
+|------------------|-----------------|
+| ![Input Room Image](inputs/src_imgs/test1.jpeg) | ![Final Rendering](outs/test1.jpg) |
 ## 🙏 Acknowledgements
 
 This project implements methods inspired by research in the field of indoor scene understanding and perspective geometry:
