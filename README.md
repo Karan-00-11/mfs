@@ -85,7 +85,18 @@ result = blender.implant_overlay((x, y), 'product_image.jpg')
 
 Input Room Image → Layout Estimation → Product Selection → Final Rendering
 
-![Example Pipeline](outs/test1.jpg)
+<!-- ![Example Pipeline](outs/test1.jpg) -->
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <div style="text-align: center;">
+    <img src="inputs/src_imgs/test1.jpeg" alt="Input Room Image" width="300">
+    <p><b>Input Room Image</b></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="outs/test1.jpg" alt="Final Rendering" width="300">
+    <p><b>Final Rendering</b></p>
+  </div>
+</div>
 
 
 ## 🙏 Acknowledgements
