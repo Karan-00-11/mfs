@@ -85,7 +85,7 @@ result = blender.implant_overlay((x, y), 'product_image.jpg')
 
 Input Room Image → Layout Estimation → Product Selection → Final Rendering
 
-![Example Pipeline](outs\test1.jpg)
+![Example Pipeline](outs/test1.jpg)
 
 
 ## 🙏 Acknowledgements
